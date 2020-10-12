@@ -1,0 +1,35 @@
+{
+    "name": "7tl",
+    "displayName": "7TL",
+    "description": "'Gentle ocean' for your VSCode!",
+    "publisher": "LT7Y",
+    "keywords": [
+        "VSCode",
+        "Theme",
+        "Dark",
+        "7TL",
+        "VS",
+        "Visual Studio Code"
+    ],
+    "icon": "7TL.png",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LT7Y/7TL.git"
+    },
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "7TL",
+                "uiTheme": "vs-dark",
+                "path": "./themes/7TL-color-theme.json"
+            }
+        ]
+    }
+}
